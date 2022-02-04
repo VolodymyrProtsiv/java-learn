@@ -9,3 +9,14 @@
 // console.log('mango' && 'fpple' || null);
 
 
+// створити змінні:
+// freands;
+// online;
+// !off;
+
+const isOnline = true;
+const isFreand = true;
+const isOff = false;
+
+const canOpenChat = isOnline && isFreand && !isOff;
+console.log('can open chat', canOpenChat);
