@@ -14,9 +14,45 @@
 // online;
 // !off;
 
-const isOnline = true;
-const isFreand = true;
-const isOff = false;
+// const isOnline = true;
+// const isFreand = true;
+// const isOff = false;
 
-const canOpenChat = isOnline && isFreand && !isOff;
-console.log('can open chat', canOpenChat);
+// const canOpenChat = isOnline && isFreand && !isOff;
+// console.log('can open chat', canOpenChat);
+// for (i = 0; i < 500; i+= 3){
+//     console.log(i);
+// }
+
+// let a = 5;
+// const b = true;
+
+
+//     if (a !== b) {
+//         console.log(`no`);
+//     } else {
+//         console.log(`tes`);
+//     }
+
+// //  1 module 18/36
+// const a = 1000; //pricePerDroid
+// const b= 10; //orderedQuantity
+// const  c = 1000; //customerCredits
+// let message;
+    
+//     // Change code below this line
+//     const totalPrice = b * a;
+//    if (c >= totalPrice ){
+//       message = `You ordered ${totalPrice} droids, you have ${c} credits left`;
+//    } else{
+//      message = `Insufficient funds!`;
+//    }
+  
+// // console.log(message);
+  
+//     // Change code above this line
+//     return message;
+
+
+
+ 
