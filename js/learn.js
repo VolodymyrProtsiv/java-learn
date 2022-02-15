@@ -54,5 +54,11 @@
 //     return message;
 
 
+let name; 
+name = 'jdsfaKf';
+const b = name.slice(0, 1);
+const c = name.slice(1, name.length);
 
- 
+// console.log (name.slice(0).includes('o'));
+console.log(b);
+console.log((b.toUpperCase())+(c.toLowerCase()));
