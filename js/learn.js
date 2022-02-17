@@ -79,4 +79,70 @@
 //   console.log(client);
 // }
 
-const number [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11];
+
+// Перебирання масиву по чотним числам та їх сума
+// const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 31, 18, 14];
+// let total = 0;
+
+// // for (let i = 0; i < numbers.length; i += 1) {
+// //   console.log(numbers[i]);
+
+// //  if (numbers[i] % 2 === 0){
+// //    console.log('Парне число');
+// //    total += numbers[i];
+// //   }
+// // }
+
+// for (const number of numbers) {
+//   // console.log(number);
+
+//   if (number % 2 === 0){
+//        console.log('Парне число');
+//        total += number;
+//       }
+// }
+// console.log('Total; ', total);
+
+
+
+// Правильний логін --найти
+// const logins = ['nsadoxicuxc', 'sdfghcjGCJCH', 'chjdscjhsdchjc'];
+// const loginToFind = 'sdfghcjGCJCH';
+// // let  message = 'error';
+
+// // for (let i = 0; i < logins.length; i += 1){
+// //   const login = logins[i];
+
+// //    console.log(login);
+
+// //   if (login === loginToFind) {
+// //     message='Welcome!!';
+// //     break;
+// //   }
+   
+ 
+  
+// // }
+// // console.log(message);
+
+// // for (const login of logins) {
+// //   if (login === loginToFind) {
+// //         message='Welcome!!';
+// //         break;
+// //       }
+// // }
+
+// // console.log(message);
+
+
+
+// const message = logins.includes(loginToFind) ? 'Welcome!!!' : 'Not found';
+// console.log(message);
+// 
+const freands = ['vova', 'alina', 'maria'];
+ 
+console.log(freands);
+
+
+const string = freands.join(' + ').toUpperCase();
+console.log(string); 
