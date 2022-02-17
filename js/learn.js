@@ -54,11 +54,27 @@
 //     return message;
 
 
-let name; 
-name = 'jdsfaKf';
-const b = name.slice(0, 1);
-const c = name.slice(1, name.length);
+// let name;
+// name = 'jdsfaKf';
+// const b = name.slice(0, 1);
+// const c = name.slice(1, name.length);
 
-// console.log (name.slice(0).includes('o'));
-console.log(b);
-console.log((b.toUpperCase())+(c.toLowerCase()));
+// // console.log (name.slice(0).includes('o'));
+// console.log(b);
+// console.log((b.toUpperCase())+(c.toLowerCase()));
+
+// const a = ['gog', "vfvf", "ljwz"];
+// a[1] = 'dog';
+// console.log(a[1]);
+
+// const string = "javascript";
+
+// for (const character of string) {
+//   console.log(character);
+// }
+
+const clients = ["Mango", "Ajax", "Poly"];
+
+for (const client of clients) {
+  console.log(client);
+}
