@@ -73,8 +73,10 @@
 //   console.log(character);
 // }
 
-const clients = ["Mango", "Ajax", "Poly"];
+// const clients = ["Mango", "Ajax", "Poly"];
 
-for (const client of clients) {
-  console.log(client);
-}
+// for (const client of clients) {
+//   console.log(client);
+// }
+
+const number [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11];
