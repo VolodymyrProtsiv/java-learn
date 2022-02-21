@@ -138,11 +138,42 @@
 
 // const message = logins.includes(loginToFind) ? 'Welcome!!!' : 'Not found';
 // console.log(message);
-// 
-const freands = ['vova', 'alina', 'maria'];
+//
+// const freands = ['vova', 'alina', 'maria'];
  
-console.log(freands);
+// console.log(freands);
 
 
-const string = freands.join(' + ').toUpperCase();
-console.log(string); 
+// const string = freands.join(' + ').toUpperCase();
+// console.log(string);
+
+
+
+// const arey=[10, 20, 50, 40];
+// const arey1 = [2, 12, 45, 50, 70];
+// let total = 0;
+
+// const summers = arey.concat(arey1);
+// for (const summer of summers) {
+//     total += summer;
+// }
+
+
+// console.log(total);
+
+
+
+
+const cards = ['card-1', 'card-2', 'card-3', 'card-4', 'card-5',];
+console.table(cards);
+
+let cardToRemove = ' ';
+const index = cards.indexOf(cardToRemove);
+
+// console.log(index);
+// cards.splice(index,5);
+// console.table(cards);
+
+
+cards.splice(3, 2,'card-88');
+console.table(cards);
