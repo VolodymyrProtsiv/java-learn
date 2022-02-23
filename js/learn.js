@@ -110,11 +110,11 @@
 // const loginToFind = 'sdfghcjGCJCH';
 // // let  message = 'error';
 
-// // for (let i = 0; i < logins.length; i += 1){
-// //   const login = logins[i];
+// for (let i = 0; i < logins.length; i += 1) {
+//     const login = logins[i];
 
-// //    console.log(login);
-
+//     console.log(login);
+// }
 // //   if (login === loginToFind) {
 // //     message='Welcome!!';
 // //     break;
@@ -149,7 +149,7 @@
 
 
 
-// const arey=[10, 20, 50, 40];
+// const arey=[2, 20, 50, 40];
 // const arey1 = [2, 12, 45, 50, 70];
 // let total = 0;
 
@@ -164,16 +164,96 @@
 
 
 
-const cards = ['card-1', 'card-2', 'card-3', 'card-4', 'card-5',];
-console.table(cards);
+// const cards = ['card-1', 'card-2', 'card-3', 'card-4', 'card-5',];
+// console.table(cards);
 
-let cardToRemove = ' ';
-const index = cards.indexOf(cardToRemove);
+// let cardToRemove = ' ';
+// const index = cards.indexOf(cardToRemove);
 
-// console.log(index);
-// cards.splice(index,5);
+// // console.log(index);
+// // cards.splice(index,5);
+// // console.table(cards);
+
+
+// cards.splice(2, 2,'card-88');
 // console.table(cards);
 
 
-cards.splice(3, 2,'card-88');
-console.table(cards);
+
+// const add = function (x, y) {
+
+//     if (x > y) {
+//         return 'cool'
+//     }
+//     return 'no';
+// }
+
+// const r = add(10, 5);
+// console.log(r);
+
+
+// const arrey = [1, 2, 3, 2, 3,5];
+// console.log(arrey[0],arrey[arrey.length-1]);
+
+
+// let add = ('mango is vegeteble cool',totalPriceWord);
+// const totalPriceWord = 10;
+// // let totalPrice;
+// // const mass = add.split(' ');
+// // console.log(mass);
+// // totalPrice = (mass.length  * totalPriceWord);
+// // console.log(totalPrice);
+
+// add = add.split(' ');
+// console.log(add.length *  totalPriceWord);
+
+// pricePerWord * message.lenght.split(' ')
+
+
+
+//  2 module task 12
+// let totalPrice;
+
+// totalPrice = message.split(" ").length * pricePerWord;
+// return totalPrice;
+
+//  2 module task 13
+
+// let tittle;
+
+// tittle = "Arrays for begginers";
+
+// console.log(tittle);
+
+// const normalizToLowerCase = tittle.toLowerCase();
+// console.log(normalizToLowerCase);
+
+// const slugify = normalizToLowerCase.split(' ').join('-');
+// console.log(slugify);
+
+//2 module task 14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(-3);
+
+
+//2 module task 16
+const firstArray = ["Mango", "Poly", "Houston"];
+const secondArray = ["Ajax", "Chelsea", "Poly", "Houston"];
+const maxLength = 5;
+
+const newMass = firstArray.concat(secondArray);
+console.log(newMass);
+
+const newArray = newMass.slice(0, maxLength);
+console.log(newArray);
+
+// const newMass = firstArray.concat(secondArray);
+// const newArray = newMass.slice(0, maxLength);
+// return newArray;
+
+
+
+
+
