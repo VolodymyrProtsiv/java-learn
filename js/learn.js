@@ -239,21 +239,43 @@
 
 
 //2 module task 16
-const firstArray = ["Mango", "Poly", "Houston"];
-const secondArray = ["Ajax", "Chelsea", "Poly", "Houston"];
-const maxLength = 5;
+// const firstArray = ["Mango", "Poly", "Houston"];
+// const secondArray = ["Ajax", "Chelsea", "Poly", "Houston"];
+// const maxLength = 5;
 
-const newMass = firstArray.concat(secondArray);
-console.log(newMass);
+// const newMass = firstArray.concat(secondArray);
+// console.log(newMass);
 
-const newArray = newMass.slice(0, maxLength);
-console.log(newArray);
+// const newArray = newMass.slice(0, maxLength);
+// console.log(newArray);
 
 // const newMass = firstArray.concat(secondArray);
 // const newArray = newMass.slice(0, maxLength);
 // return newArray;
 
 
+// 2 module task 18
+// const number = 28;
+// let total = 0;
+// for (let i = 0; i <= number; i += 1) {
+//     console.log(i);
+
+//     total += i;
+    
+    
+// }
+// console.log('total: '+ total);
+
+
+// 2 module task 20
+const orders = [20, 12, 30];
+let total = 0;
+console.log(orders)
+for (order of orders){
+   
+    total += order;
+    console.log('total: '+ total)
+}
 
 
 
